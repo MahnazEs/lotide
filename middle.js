@@ -1,4 +1,4 @@
-const eqArrays = function (arr1, arr2) {
+/* const eqArrays = function (arr1, arr2) {
   let lenArr1 = arr1.length;
   let lenArr2 = arr1.length;
   let result = true;
@@ -14,15 +14,19 @@ const eqArrays = function (arr1, arr2) {
     return false;
   }
   console.log("please enter data in Array!");
-};
+}; */
 
-const assertArraysEqual = function (array1, array2) {
+
+/* const assertArraysEqual = function (array1, array2) {
   if (eqArrays(array1, array2)) {
     console.log(`✅✅✅ ${array1} === ${array2}`);
   } else {
     console.log(`🛑🛑🛑 ${array1} !== ${array2}`);
   }
-};
+}; */
+
+
+
 
 
 const middle = function (mArray) {
@@ -49,8 +53,12 @@ const middle = function (mArray) {
 
 
 
-const middleOfArray = middle([1, 2, 3, 4, 5]);
+module.exports = middle;
+
+
+/* const middleOfArray = middle([1, 2, 3, 4, 5]);
 console.log(middleOfArray);
+assertArraysEqual(middleOfArray,[3]); */
 
 //middle([1]) // => []
 //middle([1, 2]) // => []
