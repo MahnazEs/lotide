@@ -1,20 +1,16 @@
+//const assertEqual = require('./assertEqual');
+
+
+
 // FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
+/* const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log("✅✅✅ " + `${actual} === ${expected}`);
   } else {
     console.log("🛑🛑🛑 " + `${actual} !== ${expected}`);
   }
-};
-
-/* const head = function(data) {
-  if (data) {
-    const firstElement = data.shift();
-    return firstElement;
-  } else {
-    return undefined;
-  }
 }; */
+
 
 
 const tail = function(info) {
@@ -28,6 +24,9 @@ const tail = function(info) {
 
 
 // TEST CODE
-const words = ["Yo Yo", "Lighthouse", "Labs"];
+/* const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words);
-assertEqual(words.length, 3);
+assertEqual(words.length, 3); */
+
+
+module.exports = tail;
